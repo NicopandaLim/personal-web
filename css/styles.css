@@ -1,0 +1,174 @@
+body {
+  color: #625757;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  color: #5E0A0A;
+  font-size: 5.625rem;
+  line-height: 2;
+  font-family: 'Sacramento', cursive;
+  margin-top: 50px auto 0 auto;
+}
+
+h2 {
+  color: #5E0A0A;
+  font-size: 2.5rem;
+  font-family: 'Montserrat', sans-serif;
+  padding-bottom: 10px;
+}
+
+h3 {
+  color: #C19898;
+  font-family: 'Montserrat', sans-serif;
+}
+
+a {
+  color: #C19191;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 10px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ffffff;
+}
+
+p {
+  line-height: 2;
+}
+
+.btn {
+  background: #c19191;
+  background-image: -webkit-linear-gradient(top, #c19191, #aa7070);
+  background-image: -moz-linear-gradient(top, #c19191, #aa7070);
+  background-image: -ms-linear-gradient(top, #c19191, #aa7070);
+  background-image: -o-linear-gradient(top, #c19191, #aa7070);
+  background-image: linear-gradient(to bottom, #c19191, #aa7070);
+  -webkit-border-radius: 10;
+  -moz-border-radius: 10;
+  border-radius: 10px;
+  font-family: 'Merriweather', serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #dbbfbf;
+  background-image: -webkit-linear-gradient(top, #dbbfbf, #c19898);
+  background-image: -moz-linear-gradient(top, #dbbfbf, #c19898);
+  background-image: -ms-linear-gradient(top, #dbbfbf, #c19898);
+  background-image: -o-linear-gradient(top, #dbbfbf, #c19898);
+  background-image: linear-gradient(to bottom, #dbbfbf, #c19898);
+  text-decoration: none;
+}
+
+.block-title {
+  text-align:justify;
+  font-size: 30px;
+}
+
+.container-top {
+  background-color: #F5E1DA;
+  position: relative;
+  padding-top: 100px;
+  padding-bottom: 20px;
+}
+
+.container-middle {
+  background-color: #FCF8F3;
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+
+.container-bottom {
+  background-color: #F5E1DA;
+  padding: 50px 0 20px;
+}
+
+.contact-me {
+  margin: 40px auto;
+}
+
+.contact-message {
+  width: 40%;
+  margin: 40px auto;
+}
+
+.copyright {
+  color: #ffffff;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+
+.experience-blocks {
+  max-width: 850px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+
+.footer-link {
+  font-size: 18px;
+}
+
+.hr-dot {
+  border: dotted #EEDDD2 6px;
+  border-bottom: none;
+  width: 5%;
+  margin: 50px auto;
+}
+
+.hr-line {
+  border-color: #EEDDD2;
+  width: 850px;
+  opacity: 0.3;
+  margin: 60px auto;
+}
+
+.skill-row {
+  /* width: 80%; */
+  margin: 75px auto 75px auto;
+  text-align: left;
+}
+
+.project-name {
+  color: #C19898;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  display: inline-block;
+}
+
+.project-date {
+  color: #C19898;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  display: inline-block;
+  position: absolute;
+  right: 60px;
+}
+
+.img-odd {
+  border-radius: 50%;
+  width: 210px;
+  height: 180px;
+  float: left;
+  margin-right: 30px;
+}
+
+.img-even {
+  border-radius: 50%;
+  width: 210px;
+  height: 180px;
+  float: right;
+  margin-left: 30px;
+}
+
+.intro {
+  width: 50%;
+  margin: auto;
+}
